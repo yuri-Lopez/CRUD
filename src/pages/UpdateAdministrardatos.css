@@ -1,0 +1,51 @@
+/* UpdateAdministrardatos.css */
+
+/* Contenedor principal del componente de actualización */
+.update-administrardatos {
+    padding: 40px; /* Espacio interno del contenedor */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 500px; /* Ancho máximo del contenedor */
+    margin: 50px auto; /* Margen superior e inferior para separación del contenido */
+    text-align: center; /* Centra el texto */
+}
+
+/* Espacio entre el encabezado y el formulario */
+.update-administrardatos h1 {
+    margin-bottom: 30px; /* Ajusta el espacio debajo del encabezado */
+    padding-left: 50px; /* Espacio interno a la izquierda del encabezado */
+}
+
+/* Estilo para el formulario */
+.update-administrardatos form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los elementos del formulario */
+}
+
+/* Estilo para los campos de entrada del formulario */
+.update-administrardatos input {
+    padding: 10px;
+    margin-bottom: 10px; /* Espacio debajo de cada campo de entrada */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Ajuste del ancho para incluir padding y border */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
+
+/* Estilo para los botones */
+.update-administrardatos button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Espacio superior para separar del contenido */
+}
+
+/* Color de fondo del botón al pasar el cursor */
+.update-administrardatos button:hover {
+    background-color: #0056b3;
+}

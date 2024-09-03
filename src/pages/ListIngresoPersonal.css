@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente si el contenedor tiene altura */
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos el alto de la ventana */
+    padding: 20px; /* Añade algo de espacio alrededor */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 600px; /* Limita el ancho máximo de la lista */
+}
+
+li {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center; /* Centra el texto dentro de cada elemento de lista */
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+h1 {
+    margin-bottom: 16px;
+    text-align: center; /* Centra el título */
+}
+
+p {
+    margin-top: 16px;
+    text-align: center; /* Centra el texto del párrafo */
+}

@@ -1,0 +1,55 @@
+/* UpdateEgresoPersonal.css */
+
+.update-egreso-personal {
+    display: flex;
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    min-height: 100vh;        /* Ocupa al menos la altura completa de la ventana */
+    background-color: #f5f5f5; /* Color de fondo de la página */
+    padding: 20px;
+    margin: 0;
+}
+
+.update-egreso-personal h1 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-size: 24px;
+    color: #333;
+}
+
+.update-egreso-personal form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;         /* Ancho máximo del formulario */
+    background-color: #fff;   /* Fondo blanco para el formulario */
+    padding: 20px;
+    border-radius: 8px;       /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+.update-egreso-personal input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.update-egreso-personal button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff;
+    cursor: pointer;
+}
+
+.update-egreso-personal button:disabled {
+    background-color: #ccc; /* Color del botón cuando está deshabilitado */
+    cursor: not-allowed;
+}
+
+.update-egreso-personal .error-message {
+    color: red;
+    margin-top: 10px;
+}

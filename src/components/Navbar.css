@@ -1,0 +1,80 @@
+/* Navbar.css */
+
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:seagreen;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 10px;
+    margin: 20;
+    display: flex; /* Utiliza flexbox para alinear los elementos en una fila */
+    
+}
+
+.menu > li {
+    position: relative; /* Necesario para posicionar el dropdown correctamente */
+}
+
+.menu > li > span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Añadido padding horizontal para mejorar el aspecto */
+    cursor: pointer;
+    display: block; /* Hace que el span sea un bloque para que el padding funcione correctamente */
+}
+
+/* Estilo para los elementos del dropdown */
+.menu > li > .dropdown-content {
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    position: absolute;
+    top: 100%; /* Posiciona el dropdown justo debajo del elemento principal */
+    left: 0; /* Alinea el dropdown a la izquierda del elemento principal */
+    background-color: #fff;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Bordes redondeados para un aspecto más moderno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Asegura que el dropdown esté sobre otros elementos */
+}
+
+/* Muestra el dropdown al pasar el cursor */
+.menu > li:hover > .dropdown-content {
+    display: block;
+}
+
+/* Estilo para los elementos dentro del dropdown */
+.dropdown-content li {
+    padding: 8px 15px; /* Añadido padding horizontal para alinear mejor el contenido */
+}
+
+.dropdown-content li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+/* Color de fondo al pasar el cursor sobre los enlaces del dropdown */
+.dropdown-content li a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown-button {
+    background-color: royalblue; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el cursor */
+}

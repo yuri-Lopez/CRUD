@@ -1,0 +1,33 @@
+
+/* Contenedor principal para el listado */
+.list-administrardatos {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Estilo para el título */
+.list-administrardatos h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilo para la lista */
+.list-administrardatos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-administrardatos li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para el mensaje de error */
+.error-message {
+    color: #dc3545; /* Rojo para el error */
+    margin-bottom: 20px;
+}

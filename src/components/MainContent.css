@@ -1,0 +1,17 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenedor ocupa al menos el alto de la pantalla */
+}
+
+.content {
+    flex: 1; /* Hace que el contenido principal ocupe el espacio disponible */
+    position: relative; /* Necesario para la posición absoluta de elementos hijos */
+}
+
+.main-image {
+    width: 60%; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen no se muestre como inline */
+    align-self: center;
+}
